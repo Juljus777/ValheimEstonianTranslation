@@ -2,6 +2,7 @@
 
 DLL=JotunnModStub/bin/Debug/JotunnModStub.dll
 PLUGINS=/home/$USER/.local/share/Steam/steamapps/common/Valheim/BepInEx/plugins
+ASSETS=JotunModStub/Assets
 
 # Check that source files exist and are readable
 if [ ! -f "$DLL" ]; then
@@ -20,4 +21,11 @@ if [ ! -w "$PLUGINS" ]; then
     exit 1
 fi
 
-cp -f "$DLL" "$PLUGINS" || { echo "Error: Failed to copy $DLL"; exit 1; }
+if [ ! -w "$ASSETS" ]; then
+    echo "Error: $TRANSLATIONS directory is not writable."
+    exit 1
+fi
+
+
+cp -f "$DLL" "$PLUGINS" || { echo "Error: Failed to copy $DLL"; }
+cp -rF "$ASSETS" "$PLUGINS/" || { echo "Error: Failed to copy $ASSETS"; exit 1; }

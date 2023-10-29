@@ -5,10 +5,10 @@ Upon building for release, this README.md is copied into the `Package` folder fo
 
 
 ## Features
-
+- Translations for Estonian language
 
 ## Changelog
 
 
 ## Known issues
-You can find the github at:
+You can find the github at: 
