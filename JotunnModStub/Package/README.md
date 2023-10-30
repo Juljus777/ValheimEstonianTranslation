@@ -1,4 +1,4 @@
-## Installation (manual)
+﻿## Installation (manual)
 
 Add the contents of this file to: **(Valheim Installation folder)**\BepInEx\plugins\ValheimEstonianTranslation
 
