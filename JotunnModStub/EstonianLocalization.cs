@@ -10,7 +10,7 @@ namespace EstonianLocalization
     {
         public const string PluginGUID = "com.juljus777.EstonianLocalization";
         public const string PluginName = "EstonianLocalization";
-        public const string PluginVersion = "0.0.1";
+        public const string PluginVersion = "0.0.3";
 
         public static CustomLocalization Localization = LocalizationManager.Instance.GetLocalization();
 
