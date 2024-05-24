@@ -1,4 +1,4 @@
-﻿## Installation (manual)
+## Installation (manual)
 
 Add the contents of this file to: **(Valheim Installation folder)**\BepInEx\plugins\ValheimEstonianTranslation
 
@@ -10,9 +10,12 @@ C:\Program Files (x86)\Steam\steamapps\common\Valheim\BepInEx\plugins\ValheimEst
 - Translations for Estonian language
 
 ## Changelog
- 0.0.3 - Fix issues with incorrect translations and translation fluidity 
- 0.0.2 - Add translation fixes
- 0.0.1 - Initial translations
+
+- 0.0.4 - Add Ashlands localization and some fixes to existing translations
+- 0.0.3 - Fix issues with incorrect translations and translation fluidity 
+- 0.0.2 - Add translation fixes
+- 0.0.1 - Initial translations
 
 ## Known issues
+
 You can find the github at: https://github.com/Juljus777/ValheimEstonianTranslation
